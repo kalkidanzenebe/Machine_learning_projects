@@ -1,6 +1,6 @@
 # Credit Scoring & Risk Assessment - Machine Learning Project
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on credit scoring and risk assessment using machine learning. The objective is to predict whether a customer will default on a loan based on financial and demographic features. The model is trained using a classification algorithm and evaluated for accuracy and reliability.
 
 ## Dataset Information
@@ -31,7 +31,7 @@ This project focuses on credit scoring and risk assessment using machine learnin
 - Train-test split (80% training, 20% testing)
 - Hyperparameter tuning with `GridSearchCV`
 
-### 3️ Model Evaluation
+### 3 Model Evaluation
 - Performance metrics:
   - Accuracy
   - Precision, Recall, F1-Score
@@ -49,7 +49,7 @@ git clone https://github.com/kalkidanzenebe/credit-scoring-ml.git
 cd credit-scoring-ml
 ```
 
-### 2️ Install Dependencies
+### 2 Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
