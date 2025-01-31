@@ -20,7 +20,7 @@ This project focuses on credit scoring and risk assessment using machine learnin
   - `FastAPI` (Model Deployment)
   - `pickle` (Model Serialization)
 
-##  Project Workflow
+## Project Workflow
 ### 1 Data Preprocessing
 - Handling missing values (median imputation)
 - Encoding categorical variables (Label Encoding, One-Hot Encoding)
@@ -31,7 +31,7 @@ This project focuses on credit scoring and risk assessment using machine learnin
 - Train-test split (80% training, 20% testing)
 - Hyperparameter tuning with `GridSearchCV`
 
-### 3️ Model Evaluation
+### 3 Model Evaluation
 - Performance metrics:
   - Accuracy
   - Precision, Recall, F1-Score
@@ -42,38 +42,8 @@ This project focuses on credit scoring and risk assessment using machine learnin
 - Model receives input features and returns a prediction
 - API can be tested using Postman or `curl`
 
-##  How to Run the Project
+## How to Run the Project
 ### 1 Clone the Repository
 ```bash
 git clone https://github.com/kalkidanzenebe/credit-scoring-ml.git
 cd credit-scoring-ml
-```
-
-### 2️ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3 Run the ML Model
-```bash
-python main.py
-```
-
-### 4 Deploy the API 
-```bash
-uvicorn app:main --reload
-```
-
-## Results & Future Improvements
-- Achieved Accuracy: (Add model accuracy score)
-- Potential Improvements:
-  - Try deep learning models (e.g., Neural Networks)
-  - Feature engineering for better predictions
-  - More extensive hyperparameter tuning
-
-## License
-This project is for educational purposes only.
-
-
-
-
