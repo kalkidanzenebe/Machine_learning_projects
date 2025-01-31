@@ -1,6 +1,6 @@
 # Credit Scoring & Risk Assessment - Machine Learning Project
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on credit scoring and risk assessment using machine learning. The objective is to predict whether a customer will default on a loan based on financial and demographic features. The model is trained using a classification algorithm and evaluated for accuracy and reliability.
 
 ## Dataset Information
